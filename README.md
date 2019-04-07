@@ -1,4 +1,6 @@
 # GoodNews
-Good News Everyone! - CVPR 2019 
+Good News, Everyone! Context driven entity-aware captioning for news images - CVPR 2019 
 
-COMING SOON!
+CODE COMING SOON!
+
+Stay Tuned...
