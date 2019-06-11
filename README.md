@@ -3,7 +3,7 @@ This is the code for a CVPR 2019 paper, called
 
 Model preview:
 
-![GoodNews Model!](https://github.com/furkanbiten/GoodNews2/blob/master/model.jpg)
+![GoodNews Model!](https://github.com/furkanbiten/GoodNews/blob/master/model.jpg)
 
 Huge Thanks goes to [New York Times API](https://developer.nytimes.com/indexV2.html) for providing such a service for FREE!
 
