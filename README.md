@@ -51,6 +51,9 @@ python get_images.py --num_thread 16
 ```
 Then, you will get the images. After that move to ``Clean and Format Data`` section.
 
+PS: I have recieved numerous emails regarding some of the images not present/broken in the img_urls.json. Which is why I decided to put the images on the drive to download in the name of open science.
+[Download all images](https://drive.google.com/open?id=1RF-XlPTNHwwh_XcXE2a1D6Am3fBPvQNy)
+
 ## Images + articles
 If you would like the get the raw version of the article and captions to do your own cleaning and processing, 
 no worries! First download the [article_urls](https://drive.google.com/file/d/1eqtX2yZOQoMOTEE4ZgTFes2FG8_QkiOQ/view?usp=sharing) 
