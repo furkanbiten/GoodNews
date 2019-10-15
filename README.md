@@ -157,6 +157,14 @@ and their template captions. To fill the correct named entity, you have to run `
 ````bash
 python insert.py --output [XXX] --dump [True/False] --insertion_method ['ctx', 'att', 'rand']
 ````
+PS: I have been requested to provide model's output, so I thought it would be best to share it with everyone.
+[Model Output](https://drive.google.com/open?id=1RzmK8QkBQlvmwzH7PYfM_RIhT01X95TG)
+In this folder, you have:
+test.json: Test set with raw and template version of the caption.
+article.json: Article sentences which is needed in the ``insert.py``.
+w/o article folder: All the models output on template captions, without articles.
+with article folder: Our models output in the paper with sentence attention(sen_att) and image attention(vis_att), provided in the json. Hope this is helpful to more of you.
+
 
 # Conclusion
 Thank you and sorry for the bugs!
