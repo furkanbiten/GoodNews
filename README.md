@@ -95,6 +95,7 @@ Now that we have the data, it is time to clean, preprocess and format the data.
 
 ## Preprocess
 When you reach this part, you must have ``captioning_dataset.json `` in your ``data/`` folder. 
+You can also download [captioning_dataset.json](https://drive.google.com/file/d/1rswGdNNfl4HoP9trslP0RUrcmSbg1_RD/view?usp=sharing).
 
 ### Captions
 This part is for cleaning the captions (tokenizing, removing non-ascii characters, etc.),
