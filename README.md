@@ -40,9 +40,9 @@ You have 3 options to get the data.
 ## Images only
 If you want to download the images only and directly start working on the same dataset as ours, 
 then download the cleaned version of the dataset without images: 
-[article+caption.json](https://drive.google.com/file/d/1rswGdNNfl4HoP9trslP0RUrcmSbg1_RD/view?usp=sharing) 
+[article+caption.json](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/ERuh81o1cnJJoKne8hOe3MYBcFlTglof3vxCcfbyXa7z-w?e=jtQU0Z) 
 and put it to data/ folder and 
-download the [img_urls.json](https://drive.google.com/file/d/18078qCfdjOHuu75SjBLGNUSiIeq6zxJ-/view?usp=sharing)
+download the [img_urls.json](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/Ef0W_O-HU59Pn22b9Bni5oABLDtkBUFFMXiN5cl2vnQxFg?e=75fpWW)
 and put it in the `get_data/get_images_only/` folder.
 
 Then run  
@@ -52,11 +52,11 @@ python get_images.py --num_thread 16
 Then, you will get the images. After that move to ``Clean and Format Data`` section.
 
 PS: I have recieved numerous emails regarding some of the images not present/broken in the img_urls.json. Which is why I decided to put the images on the drive to download in the name of open science.
-[Download all images](https://drive.google.com/open?id=1RF-XlPTNHwwh_XcXE2a1D6Am3fBPvQNy)
+[Download all images](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/EQpCxX8PMr1NmAfMwgn0YzcBc_LLSWCJ8fTvqy-Agjz_Kw?e=pmIxfz)
 
 ## Images + articles
 If you would like the get the raw version of the article and captions to do your own cleaning and processing, 
-no worries! First download the [article_urls](https://drive.google.com/file/d/1eqtX2yZOQoMOTEE4ZgTFes2FG8_QkiOQ/view?usp=sharing) 
+no worries! First download the [article_urls](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/EU2g3r144q1LkPLgf3TFFKYB6PznVxZFFOn51kM1ARrMMg?e=8xfQQ3) 
 and go to folder ``get_data/with_article_urls/`` and run 
 ```bash
 python get_data_with_urls.py --num_thread 16
@@ -88,15 +88,15 @@ if they have corrupt image, empty articles or empty captions. After that move to
 I also provide the links to images and their data splits (train, val, test). 
 Even though I always use random seed to decide the split, just in case 
 If the GODS meddles with the random seed, here is the link to a json where you can find each image and its split: 
-[img_splits.json](https://drive.google.com/file/d/1rl-3DgMRNV8g0AptwKRoYonNkYfT26sf/view?usp=sharing)
+[img_splits.json](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/EUn6ay_SiMZNpByb5JRnuJEBoxBO8QaXurpS8liR_1Orew?e=6f0axr)
 
 # Clean and Format the Data
 Now that we have the data, it is time to clean, preprocess and format the data. 
 
 ## Preprocess
 When you reach this part, you must have ``captioning_dataset.json `` in your ``data/`` folder. 
-You can also download [captioning_dataset.json](https://drive.google.com/file/d/1rswGdNNfl4HoP9trslP0RUrcmSbg1_RD/view?usp=sharing).
-You can also download [news_dataset.json](https://drive.google.com/file/d/1eoeUoAwH2KTYcgvXs3ylAbX_RtatjbkJ/view?usp=sharing).
+You can also download [captioning_dataset.json](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/ERuh81o1cnJJoKne8hOe3MYBcFlTglof3vxCcfbyXa7z-w?e=LhsTl6).
+You can also download [news_dataset.json](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/ESCMiY_9KrFNkibasc-g6xABTwm8RWMNYIAj0BIN4Oya-w?e=kFqxq9g).
 ### Captions
 This part is for cleaning the captions (tokenizing, removing non-ascii characters, etc.),
  splitting train, val, and test and creating anonymize captions. 
@@ -127,9 +127,9 @@ python prepro_images.py
 ```
 
 We proposed 3 different article encoding method. You can download each of encoded article methods, 
-[articles_full_avg_](https://drive.google.com/file/d/1ujpfo80lNKsho6EjXvkBJq27N3RNYWES/view?usp=sharing),
-[articles_full_wavg](https://drive.google.com/file/d/1HSkka3adT4wz1xPuOGjf0fM87gL4Q0TK/view?usp=sharing),
-[articles_full_TBB](https://drive.google.com/file/d/1TuFz_PPSQ6WEHOgDDStBEjjpoRAH10u_/view?usp=sharing).
+[articles_full_avg_](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/ERvJZ-9tWN5MvDZnvmAYbw8B0OeteXqSuIfCwr3ZjeGtUQ?e=pT8J4y),
+[articles_full_wavg](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/EXe2OI3HCLVJrasj51R84BEBRDPFtmhNcbz8kZ0kIDcFNQ?e=knLeeT),
+[articles_full_TBB](https://cvcuab-my.sharepoint.com/:u:/g/personal/abiten_cvc_uab_cat/EY2NsX7aTpNOgGloYxFihtcB9X0NlSfuy97Dc2_766X3Ag?e=MRXcHs).
 
 Or you can use the code to obtain them:
 ````bash
@@ -159,7 +159,7 @@ and their template captions. To fill the correct named entity, you have to run `
 python insert.py --output [XXX] --dump [True/False] --insertion_method ['ctx', 'att', 'rand']
 ````
 PS: I have been requested to provide model's output, so I thought it would be best to share it with everyone.
-[Model Output](https://drive.google.com/open?id=1RzmK8QkBQlvmwzH7PYfM_RIhT01X95TG)
+[Model Output](https://cvcuab-my.sharepoint.com/:f:/g/personal/abiten_cvc_uab_cat/Eu637xtIZN9NltruagxqDLcBWs-wXCM_kMDac82x0QNBxg?e=2WpmJL)
 In this folder, you have:
 
 test.json: Test set with raw and template version of the caption.
